@@ -1,0 +1,63 @@
+html {
+    font-family: sans-serif;
+    background-color: rgb(61, 79, 75);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#cont {
+    width: 500px;
+    height: 600px;
+    border: 2px solid white;
+    background-color: rgb(243, 230, 86);
+    margin-top: 15px;
+}
+
+#player {
+    width: 35px;
+    height: 35px;
+    background-color: rgb(247, 23, 19);
+    margin-top: 30px;
+    border-radius: 50%;
+}
+
+#Timer {
+    font-weight: bold;
+    font-size: 45px;
+}
+
+@media (max-width: 520px) {
+    #cont {
+        width: 90%;
+    }
+}
+
+.ball {
+    color: rgb(2, 2, 163);
+    margin-top: 3px;
+    border-radius: 50%;
+}
+
+#smile {
+    font-size: 300px;
+    position: absolute;
+    margin-top: 200px;
+    margin-left: 1000px;
+    color: rgba(17, 242, 227, 0.726);
+}
+
+#flash {
+    font-size: 300px;
+    position: absolute;
+    margin-top: -400px;
+    margin-left: 100px;
+    color: rgba(242, 17, 17, 0.726);
+}
+
+.hidden {
+    visibility: hidden;
+    height: 0;
+}
